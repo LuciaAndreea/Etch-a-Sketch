@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* designing the div into a grid using flexbox */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+/* stilizarea latimii, lungimii si culorii fiecarui patrat */
+.grid-item{
+    width: calc(360px / 16);
+    height: calc(420px / 16);
+    background-color: orange;
+    border: 1px solid #fff;
+}
+
