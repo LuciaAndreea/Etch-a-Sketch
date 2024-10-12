@@ -17,9 +17,17 @@ body{
 
 /* stilizarea latimii, lungimii si culorii fiecarui patrat */
 .grid-item{
-    width: calc(360px / 16);
-    height: calc(420px / 16);
     background-color: orange;
     border: 1px solid #fff;
+    transition: background-color 0.3s ease;
 }
 
+.grid-item.hovered{
+    background-color: aqua;
+}
+
+button{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+}
